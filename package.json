@@ -1,0 +1,32 @@
+{
+  "name": "automate-quarterly-taxes",
+  "version": "1.0.0",
+  "description": "Make your quarterly tax payments 3x faster with automation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Yun",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^13.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinyun/automate-quarterly-taxes.git"
+  },
+  "keywords": [
+    "eftps",
+    "quarterly",
+    "taxes",
+    "tax",
+    "payment",
+    "irs",
+    "estimated"
+  ],
+  "bugs": {
+    "url": "https://github.com/kevinyun/automate-quarterly-taxes/issues"
+  },
+  "homepage": "https://github.com/kevinyun/automate-quarterly-taxes#readme"
+}
