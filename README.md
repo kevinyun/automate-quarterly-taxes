@@ -2,9 +2,12 @@
 
 Make your quarterly tax payments 3x faster with automation.
 
+![demo](demo.gif)
+
+
 This is primarily useful if you're a founder who wants to save 10-20 minutes each time you schedule your quarterly federal tax payments on EFTPS (Corps and multi-member LLCs).
 
-This is a Node.js script that opens up the EFTPS website in a browser (via `puppeteer`), loads `jQuery` on-page, and automatically takes you through the right commands and sequences until you are taken to the final confirmation screen. Then all you have to do is click submit.
+This is a Node.js script that opens up the EFTPS website in a browser (via `puppeteer`), loads `jQuery` on-page, and automatically takes you through the right commands and sequences until you are taken to the final confirmation screen. Then all you have to do is click 'Make Payment'.
 
 **Please note: You'll need an [EFTPS](https://eftps.gov) account**.
 
@@ -16,7 +19,7 @@ This is a Node.js script that opens up the EFTPS website in a browser (via `pupp
 3. Open up the file `index.js` and update `USER` at line 8 with your EFTPS login details (9-digit EIN, PIN, and password)
 4. Open up the file `index.js` and update `TAX_PAYMENT` at line 15 with your quarterly payment details (payment amount, tax period, and settlement date).
 5. Run the main script: `node index`
-6. The browser will open and take you to the final confirmation screen. Then submit once everything looks good.
+6. The browser will open and take you to the final confirmation screen. Then click 'Make Payment' once everything looks good.
 7. Repeat steps 4-6 until you are done with your quarterly taxes for the year.
 
 

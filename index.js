@@ -68,7 +68,11 @@ const user = {
   }
 };
 
-const taxPayment = TAX_PAYMENT;
+const taxPayment = {
+  paymentAmount: TAX_PAYMENT.PAYMENT_AMOUNT,
+  taxPeriod: TAX_PAYMENT.TAX_PERIOD,
+  settlementDate: TAX_PAYMENT.SETTLEMENT_DATE
+};
 
 
 /*======================================
